@@ -7,8 +7,6 @@ print(empleados)
 
 if empleados['status'] == 'success':
     lista_empleados = empleados['data']
-
-    # Inicializar variables para cálculos
     total_salario = 0
     total_edad = 0
     salario_min = float('inf')
